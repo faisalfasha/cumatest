@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <% unless cart.line_item.empty? %>
+=======
+>>>>>>> bd75c571e3200aa420194dfb691f22be8ebb768c
 <h2>Your Cart</h2>
 <table>
 	<%= render(cart.line_items) %>
@@ -9,5 +12,9 @@
 	</tr>
 
 </table>
+<<<<<<< HEAD
 <%= button_to 'Empty cart', cart, method: :delete, data: {confirm: 'Are you sure ?'} %>
 <% end %>
+=======
+<%= button_to 'Empty cart', cart, method: :delete, data: {confirm: 'Are you sure ?'} %>
+>>>>>>> bd75c571e3200aa420194dfb691f22be8ebb768c
