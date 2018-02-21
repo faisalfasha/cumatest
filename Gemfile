@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
