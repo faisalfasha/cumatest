@@ -50,6 +50,8 @@ body, body > p, body > ol, body > ul, body > td {margin: 0px !important}
 #side {
 		padding: 1em 5em;
 		background: #141;
+		color: #e6ffff;
+		font-weight: bold;
 
 		form, div {
 			display: inline;
@@ -71,11 +73,12 @@ body, body > p, body > ol, body > ul, body > td {margin: 0px !important}
 		}
 
 		ul {
+
 			padding: 0;
 			li {
 				list-style: none;
 				a {
-					color: #bfb;
+					color: #e6ffff;
 					font-size: small;
 				}
 			}
